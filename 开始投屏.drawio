@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T06:04:08.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zA5m9ktAzrUr5j41w2Vx" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T09:28:03.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="YuOv88CHk6mFU7lwmW7S" version="21.0.6" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1134" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1492" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,10 +115,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8hkkn-3WCArkH5dwM9WC-312" value="OplusMirageWindow&lt;br&gt;ManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="951" y="20" width="130" height="1130" as="geometry" />
+          <mxGeometry x="951" y="20" width="130" height="1580" as="geometry" />
         </mxCell>
         <mxCell id="8hkkn-3WCArkH5dwM9WC-313" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-312">
-          <mxGeometry x="53" y="66" width="22" height="1034" as="geometry" />
+          <mxGeometry x="53" y="66" width="22" height="1474" as="geometry" />
         </mxCell>
         <mxCell id="8hkkn-3WCArkH5dwM9WC-315" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-312">
           <mxGeometry x="70" y="640" width="10" height="40" as="geometry" />
@@ -156,7 +156,7 @@
         <mxCell id="8hkkn-3WCArkH5dwM9WC-321" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-312">
           <mxGeometry x="70" y="860" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8hkkn-3WCArkH5dwM9WC-322" value="14. moveTopStackToMirageDisplay&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="8hkkn-3WCArkH5dwM9WC-321" parent="8hkkn-3WCArkH5dwM9WC-312">
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-322" value="14. moveTopStack&lt;br&gt;ToMirageDisplay&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="8hkkn-3WCArkH5dwM9WC-321" parent="8hkkn-3WCArkH5dwM9WC-312">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="75" y="840" as="sourcePoint" />
             <Array as="points">
@@ -186,10 +186,112 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-329" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-312">
+          <mxGeometry x="70" y="1070" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-330" value="17. postMoveStackToMirageDisplay&lt;br&gt;dc.updateDisplayOverride&lt;br&gt;ConfigurationLocked" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="8hkkn-3WCArkH5dwM9WC-329" parent="8hkkn-3WCArkH5dwM9WC-312">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="1050" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-331" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-312">
+          <mxGeometry x="70" y="1144" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-332" value="18. snapshotTaskBefore&lt;br&gt;MoveToMirageDisplay" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="8hkkn-3WCArkH5dwM9WC-331" parent="8hkkn-3WCArkH5dwM9WC-312">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="1124" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="1154" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-333" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-312">
+          <mxGeometry x="70" y="1210" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-334" value="19. moveStackToMirageDisplay" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="8hkkn-3WCArkH5dwM9WC-333" parent="8hkkn-3WCArkH5dwM9WC-312">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="1190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-335" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-312">
+          <mxGeometry x="70" y="1280" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-336" value="20. moveHomeStackBehindTopStack&lt;br&gt;TaskDisplayArea.moveRootTask&lt;br&gt;BehindRootTask&lt;br&gt;(homeStack,topMirageTask)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="8hkkn-3WCArkH5dwM9WC-335" parent="8hkkn-3WCArkH5dwM9WC-312">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="1260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="1290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8hkkn-3WCArkH5dwM9WC-314" value="10. notifyDisplayDeviceAdd 兼容老版本走的逻辑" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="330" y="630" as="sourcePoint" />
             <mxPoint x="1000" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-337" value="ActivityTask&lt;br&gt;ManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1230" y="19" width="130" height="1421" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-338" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-337">
+          <mxGeometry x="53" y="1280" width="22" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-339" value="21. moveRootTaskToDisplay" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="1360" as="sourcePoint" />
+            <mxPoint x="1280" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-340" value="RootWindowContainer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1381" y="19" width="130" height="1611" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-341" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-340">
+          <mxGeometry x="53" y="1040" width="22" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-344" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-340">
+          <mxGeometry x="70" y="1391" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-345" value="23. getDisplay&lt;br&gt;ContentOrCreate" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="8hkkn-3WCArkH5dwM9WC-344" parent="8hkkn-3WCArkH5dwM9WC-340">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="1371" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="1401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-346" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8hkkn-3WCArkH5dwM9WC-340">
+          <mxGeometry x="70" y="1461" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-347" value="24. moveRootTaskToTaskDisplayArea" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="8hkkn-3WCArkH5dwM9WC-346" parent="8hkkn-3WCArkH5dwM9WC-340">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="1441" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="1471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-342" value="17.1getDisplayContent(displayId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="1124" as="sourcePoint" />
+            <mxPoint x="1430" y="1124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-343" value="22. moveRoot&lt;br&gt;TaskToDisplay" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1310" y="1380" as="sourcePoint" />
+            <mxPoint x="1430" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hkkn-3WCArkH5dwM9WC-348" value="25. ensureActivitiesVisible" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="1540" as="sourcePoint" />
+            <mxPoint x="1430" y="1540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
