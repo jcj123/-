@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T07:09:57.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="EDw-92NlknBuGp3N1EET" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T09:50:46.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="w8o6Sd0sxvjwYf3K6yt6" version="21.1.4" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="979" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -377,9 +377,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BTnKgpzovzwkrVFmSv59-35" value="32. resumeNext&lt;br&gt;FocusAfterReparent" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.0013" width="80" relative="1" as="geometry">
             <mxPoint x="1460" y="1850" as="sourcePoint" />
             <mxPoint x="1620" y="1850" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BTnKgpzovzwkrVFmSv59-36" value="33. resumeFocused&lt;br&gt;TasksTopActivities" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
@@ -390,9 +391,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BTnKgpzovzwkrVFmSv59-37" value="34. ensureActivitiesVisble" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.0013" width="80" relative="1" as="geometry">
             <mxPoint x="1620" y="1930" as="sourcePoint" />
             <mxPoint x="1460" y="1930" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
