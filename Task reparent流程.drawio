@@ -1,0 +1,206 @@
+<mxfile host="app.diagrams.net" modified="2023-05-31T06:29:27.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RTWQrfyfPwbbsBZjndGx" version="21.3.4" type="github">
+  <diagram name="第 1 页" id="x-YtU6hJuup7pzEKdsCe">
+    <mxGraphModel dx="2010" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pRfiwhletkH-5ui5xrGc-1" value="OplusMirageDisplay&lt;br&gt;ManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="130" height="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-1">
+          <mxGeometry x="54" y="65" width="22" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-1">
+          <mxGeometry x="50" y="1450" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-5" value="ActivityTask&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="253" y="20" width="130" height="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-5">
+          <mxGeometry x="54" y="65" width="22" height="625" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-5">
+          <mxGeometry x="50" y="1617" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-12" value="1. moveTaskToMirageDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="307" y="150.0344827586207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-13" value="RootWindowContainer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="463" y="20" width="130" height="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-13">
+          <mxGeometry x="54" y="140" width="22" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-13">
+          <mxGeometry x="71" y="210" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-97" value="3. getDisplayContentOrCreate" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="pRfiwhletkH-5ui5xrGc-96" parent="pRfiwhletkH-5ui5xrGc-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-13">
+          <mxGeometry x="71" y="330" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-100" value="5. moveRootTaskToTask&lt;br&gt;DisplayArea()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="pRfiwhletkH-5ui5xrGc-99" parent="pRfiwhletkH-5ui5xrGc-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-13">
+          <mxGeometry x="71" y="410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-102" value="6. rootTask = getRootTask()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="pRfiwhletkH-5ui5xrGc-101" parent="pRfiwhletkH-5ui5xrGc-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-15" value="2. moveRootTaskToDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="333" y="195" as="sourcePoint" />
+            <mxPoint x="513" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-16" value="DisplayContent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="676.5" y="20" width="130" height="1861" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-16">
+          <mxGeometry x="53" y="237" width="22" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-46" value="ActivityTask&lt;br&gt;ManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="827" y="19" width="130" height="1861" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-46">
+          <mxGeometry x="53" y="460" width="22" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-48" value="22. moveRootTaskToDisplay" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="1399" as="sourcePoint" />
+            <mxPoint x="1250" y="1399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-49" value="OplusMirageDisplay&lt;br&gt;PolicyFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1355" y="19" width="130" height="1861" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-49">
+          <mxGeometry x="54" y="581" width="22" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-51" value="&amp;nbsp;23. ensureActivitiesVisible" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="1460.24" as="sourcePoint" />
+            <mxPoint x="1250" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-52" value="DisplayContent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1500" y="19" width="130" height="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-52">
+          <mxGeometry x="53" y="1040" width="22" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-54" value="InputMethodManager&lt;br&gt;Internal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1646" y="19" width="130" height="1861" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="pRfiwhletkH-5ui5xrGc-54">
+          <mxGeometry x="53" y="1220" width="22" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-56" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;task reparent过程&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rootTaskId：taskId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;displayId: 目标displayId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;onTop： 石头reparent到top&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;根据目标displayId获取DisplayContent&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-60" value="获取TaskDisplayArea" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="169" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-63" value="由OverlayAdapter创建一个&lt;br&gt;OverlayDisplayDevice" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-64" value="发送一个DISPLAY_DEVICE_EVENT_ADDED event&lt;br&gt;用于创建LogicalDisplay等，该event实际上执行&lt;br&gt;DisplayDeviceRepository#handleDisplayDeviceAdded()" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-65" value="step3:记录当前创建的devices" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-73" value="24. notifyCastSuccess" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1000" y="1560.41" as="sourcePoint" />
+            <mxPoint x="120" y="1560.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-74" value="触发投屏success回调" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="128" y="1500" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-80" value="11. mPolicyFactory.createDisplayPolicy" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0009" width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="700" as="sourcePoint" />
+            <mxPoint x="1410" y="700" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-81" value="17.1&amp;nbsp;updateDisplayOverride&lt;span style=&quot;text-align: left;&quot;&gt;ConfigurationLocked()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="1130" as="sourcePoint" />
+            <mxPoint x="1550" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-82" value="20. InputMethodManagerInternal.get().hideCurrentInputMethod()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="pRfiwhletkH-5ui5xrGc-55">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="1290" as="sourcePoint" />
+            <mxPoint x="1110" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-85" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ManagerService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-86" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DeivceManager" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="263" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-87" value="OplusMirage&lt;br&gt;DisplayInfo" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="473" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-88" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DeviceFactory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="633" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-89" value="OverlayDisplayAdapter" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="806.5" y="1880" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-90" value="OplusMirageWindow&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ManagerService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="954.5" y="1880" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-91" value="ActivityTask&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ManagerService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1201.5" y="1880" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-92" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;PolicyFactory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1358.5" y="1880" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-93" value="DisplayContent" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1503.5" y="1880" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-94" value="InputMethodManager&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Internal" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1649.5" y="1880" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-95" value="根据castMode创建对应policy" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="680" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pRfiwhletkH-5ui5xrGc-98" value="4. getDefaultTaskDisplayArea()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="300" as="sourcePoint" />
+            <mxPoint x="730" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
