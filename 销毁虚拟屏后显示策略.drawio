@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T03:12:19.879Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.6" etag="xBNy58HQ5TImTfRidSWs" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T03:32:58.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ECSHpjjwxxI2RSW3MRLK" version="21.3.6" type="github">
   <diagram name="第 1 页" id="UaIOHVlHzPApeq9zFzyf">
-    <mxGraphModel>
+    <mxGraphModel dx="979" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-14" value="OplusMirage&lt;br&gt;WindowManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="346" y="18" width="130" height="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Lcm0hkVv3pNYCc9iG2gG-14">
+          <mxGeometry x="54" y="70" width="22" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Lcm0hkVv3pNYCc9iG2gG-14">
+          <mxGeometry x="71" y="102" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-19" value="1. onMirageDisplayRemoved()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="Lcm0hkVv3pNYCc9iG2gG-14" target="Lcm0hkVv3pNYCc9iG2gG-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="82" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-21" value="RootWindowContainer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="570" y="18" width="130" height="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Lcm0hkVv3pNYCc9iG2gG-21">
+          <mxGeometry x="54" y="69" width="22" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-27" value="OplusMirage&lt;br&gt;DisplaySecureSurfaceManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="710" y="17" width="170" height="1023" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Lcm0hkVv3pNYCc9iG2gG-27">
+          <mxGeometry x="74" y="783" width="22" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-34" value="OplusMirage&lt;br&gt;WindowController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="890" y="17" width="130" height="1023" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Lcm0hkVv3pNYCc9iG2gG-34">
+          <mxGeometry x="54" y="418" width="22" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;根据castMode确定移除后的栈策略&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;PC: finishTasksImmediately&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;TV: moveStacksToDefaultDisplay&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;CAR: finishAndKillImmediately&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;APPSHARE: finishTasksImmediately&lt;br&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="220" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
