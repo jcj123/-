@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T02:36:49.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NbAYpO9mHThHccvoOStw" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T02:44:55.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pfvOdFvfqPPOufAEgmRS" version="21.3.6" type="github">
   <diagram name="第 1 页" id="UaIOHVlHzPApeq9zFzyf">
     <mxGraphModel dx="979" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,8 +90,8 @@
         <mxCell id="Lcm0hkVv3pNYCc9iG2gG-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Lcm0hkVv3pNYCc9iG2gG-34">
           <mxGeometry x="53" y="775" width="22" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;根据castMode确定移除后的栈策略&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;PC: finishTasksImmediately&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;TV: moveStacksToDefaultDisplay&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;CAR: finishAndKillImmediately&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;APPSHARE: finishTasksImmediately&lt;br&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
-          <mxGeometry x="160" y="90" width="220" height="100" as="geometry" />
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;根据castMode确定移除后的栈策略&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;PC:&lt;/b&gt; finishTasksImmediately&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;TV: &lt;/b&gt;moveStacksToDefaultDisplay&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;CAR: &lt;/b&gt;finishAndKillImmediately&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;APPSHARE: &lt;/b&gt;finishTasksImmediately&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;BackgroundStream:&lt;/b&gt; shouldConsiderSplitScreenModeOnDisplayRemoved&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="310" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Lcm0hkVv3pNYCc9iG2gG-44" value="&lt;div style=&quot;text-align: left;&quot;&gt;1. 策略一，将任务栈移到主屏&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="180" y="200" width="200" height="30" as="geometry" />
@@ -197,6 +197,9 @@
             <mxPoint x="422" y="915" as="sourcePoint" />
             <mxPoint x="1062" y="915" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Lcm0hkVv3pNYCc9iG2gG-76" value="&lt;div style=&quot;text-align: left;&quot;&gt;不在多开白名单&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="460" y="890" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
