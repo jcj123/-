@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T12:14:15.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="nDaRr8eTVcGTmAF_cAfJ" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T12:27:56.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GjWk6wlGmQpCJX_2tkAD" version="21.3.6" type="github">
   <diagram name="第 1 页" id="TcpiQXXUWc1p7RaLZvVN">
     <mxGraphModel dx="979" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
           <mxGeometry x="421" y="40" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-7" value="1、开启镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="125" y="100" width="110" height="30" as="geometry" />
+          <mxGeometry x="110" y="100" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-8" value="createVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -57,10 +57,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-12" value="2、切换后台投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="125" y="180" width="110" height="30" as="geometry" />
+          <mxGeometry x="112" y="180" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;移栈，这里会提供多个接口，由业务方自己根据投屏模式&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;来调用相应接口，不再由框架根据参数来确定&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="490" y="260" width="320" height="40" as="geometry" />
+          <mxGeometry x="487" y="263" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-15" value="3、切换回镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="311" width="130" height="30" as="geometry" />
@@ -72,13 +72,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-17" value="&lt;div style=&quot;text-align: left;&quot;&gt;会提供多个接口，由业务方自己根据投屏模式不同调用不同&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;接口，来实现不同策略&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="487" y="410" width="340" height="40" as="geometry" />
+          <mxGeometry x="486" y="414" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-18" value="resize VirtualDisplay&lt;br&gt;重新设置尺寸等信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="220" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-19" value="4、关闭镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="478" width="110" height="30" as="geometry" />
+          <mxGeometry x="114" y="478" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-20" value="destoryVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -90,7 +90,7 @@
           <mxGeometry x="110" y="360" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-24" value="销毁VirtualDisplay虚拟屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="490" y="508" width="160" height="30" as="geometry" />
+          <mxGeometry x="488" y="505" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
