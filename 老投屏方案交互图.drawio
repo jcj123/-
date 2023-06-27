@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T09:31:11.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.6" etag="2YaENLvw-KDdBiVVT44l" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T11:33:39.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Q-0V0fcxIqKw5uygpoVa" version="21.3.6" type="github">
   <diagram name="第 1 页" id="LOQ-rImNGxbMYktJ3IUX">
-    <mxGraphModel>
+    <mxGraphModel dx="979" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-1" value="业务方" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="191" y="40" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-2" value="投屏框架" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="421" y="40" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-3" value="开启镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-4" value="createVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="246" y="120" as="sourcePoint" />
+            <mxPoint x="466.5" y="119.75862068965523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-6" value="完成VirtualDisplay虚拟屏创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-7" value="VirtualDisplay" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="160" as="sourcePoint" />
+            <mxPoint x="244.81034482758628" y="159.75862068965523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-8" value="startMirageWindowMode(intent, options)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="247" y="210" as="sourcePoint" />
+            <mxPoint x="467" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-9" value="切换后台投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、解析参数，完成OverlayDisplay虚拟屏创建&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、将两块虚拟屏进行关联，对旋转尺寸等进行计算&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、解析参数，选择不同移栈策略&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="175" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SReuTF12Yw2OU4Fin3kD-11" value="displayId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466.19" y="249.9" as="sourcePoint" />
+            <mxPoint x="247.00034482758628" y="249.65862068965524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
