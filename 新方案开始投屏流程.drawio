@@ -1,9 +1,289 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T06:49:07.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.6" etag="s7Sep3-7zTJnSNLlk3z5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:34:58.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mTCJ2MD-K_xC9i9fuBKr" version="21.3.6" type="github">
   <diagram name="第 1 页" id="up2WzP2WOq_WwcbOWC76">
-    <mxGraphModel>
+    <mxGraphModel dx="2010" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="COJoxem9YhKzUR3GFNAb-1" value="OplusMirageDisplay&lt;br&gt;ManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="130" height="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-1">
+          <mxGeometry x="54" y="65" width="22" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-3" value="1.createVirtualDisplay&lt;br&gt;(startOptions)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="COJoxem9YhKzUR3GFNAb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="88" as="sourcePoint" />
+            <mxPoint x="51" y="88.10344827586209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-112" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-1">
+          <mxGeometry x="51" y="996" width="25" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-129" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-1">
+          <mxGeometry x="51" y="1214" width="25" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-138" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-1">
+          <mxGeometry x="52.5" y="1380" width="25" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-5" value="OplusMirageDisplay&lt;br&gt;DeivceManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="253" y="20" width="130" height="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-5">
+          <mxGeometry x="54" y="65" width="22" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-5">
+          <mxGeometry x="71" y="268" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-8" value="5. createDisplayDevice&lt;br&gt;AlwaysNew" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="COJoxem9YhKzUR3GFNAb-5" target="COJoxem9YhKzUR3GFNAb-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="248" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-5">
+          <mxGeometry x="71" y="478" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-10" value="mDisplayDevices.add(device)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="COJoxem9YhKzUR3GFNAb-5" target="COJoxem9YhKzUR3GFNAb-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="458" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-98" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-5">
+          <mxGeometry x="51" y="610" width="25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-12" value="2. createDisplayDevice()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="307" y="150.0344827586207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-13" value="OplusMirageDisplayInfo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="463" y="20" width="130" height="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-13">
+          <mxGeometry x="54" y="140" width="22" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-15" value="3. createFromMirageOptions" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="333" y="195" as="sourcePoint" />
+            <mxPoint x="513" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-16" value="OplusMirageDisplay&lt;br&gt;DeviceFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="623" y="19" width="130" height="1861" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-16">
+          <mxGeometry x="53" y="300" width="22" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-16">
+          <mxGeometry x="70" y="362" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-19" value="7. createReal&lt;br&gt;DisplayDevice" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="COJoxem9YhKzUR3GFNAb-16" target="COJoxem9YhKzUR3GFNAb-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="342" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-20" value="6. mDeviceFactory.create()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0015" width="80" relative="1" as="geometry">
+            <mxPoint x="333" y="349" as="sourcePoint" />
+            <mxPoint x="670" y="349" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-24" value="OplusMirageDisplayDevice" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="441" as="sourcePoint" />
+            <mxPoint x="330" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-25" value="OplusMirageWindow&lt;br&gt;ManagerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="810" y="20" width="130" height="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-25">
+          <mxGeometry x="54" y="631" width="22" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-117" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-25">
+          <mxGeometry x="51" y="1027" width="25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-45" value="10. notifyDisplayDeviceAdd&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="672" as="sourcePoint" />
+            <mxPoint x="860" y="672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-49" value="OplusMirageDisplay&lt;br&gt;PolicyFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1216" y="19" width="130" height="1861" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-49">
+          <mxGeometry x="54" y="581" width="22" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;step1:根据options创建OplusMirageDisplayInfo&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry y="160" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-58" value="4.OplusMirageDisplayInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="220" as="sourcePoint" />
+            <mxPoint x="330" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-59" value="&lt;div style=&quot;text-align: left;&quot;&gt;step2:创建虚拟display&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;根据OplusMirageDisplayInfo创建OplusMirageDispalyDevice&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="310" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-60" value="创建实际虚拟display" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-65" value="step3:记录当前创建的devices" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-75" value="业务方app" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-137" y="28" width="100" height="1852" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry x="37.5" y="57" width="25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry x="37.5" y="772" width="25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-111" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry x="37.5" y="880" width="25" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry x="58" y="942" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-126" value="14. VirtualDisplay,resize()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="COJoxem9YhKzUR3GFNAb-125" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="63" y="922" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="93" y="952" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-128" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry x="37.5" y="1150" width="25" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-131" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry x="58" y="1180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-132" value="17. VirtualDisplay,resize()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="COJoxem9YhKzUR3GFNAb-131" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="63" y="1160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="93" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-136" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-75">
+          <mxGeometry x="37.5" y="1382" width="25" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-80" value="11. mPolicyFactory.createDisplayPolicy" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0009" width="80" relative="1" as="geometry">
+            <mxPoint x="891" y="700" as="sourcePoint" />
+            <mxPoint x="1271" y="700" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-84" value="业务方app" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-85" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ManagerService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-86" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DeivceManager" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="263" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-87" value="OplusMirage&lt;br&gt;DisplayInfo" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="473" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-88" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DeviceFactory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="633" y="1880" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-90" value="OplusMirageWindow&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ManagerService" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="813.5" y="1880" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-92" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;PolicyFactory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1219.5" y="1880" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-95" value="根据castMode创建对应policy" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="690" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-97" value="VirtualDisplay" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="COJoxem9YhKzUR3GFNAb-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="844.06" as="sourcePoint" />
+            <mxPoint x="-71" y="844.06" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="882" y="740" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-108" value="12. createDisplayLocked" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="COJoxem9YhKzUR3GFNAb-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="887" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="917" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="882" y="810" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-110" value="13. onMirageDisplayAdded" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="COJoxem9YhKzUR3GFNAb-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="887" y="790" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="917" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-115" value="15. moveTask(displayId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="COJoxem9YhKzUR3GFNAb-112">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-70" y="1067.5" as="sourcePoint" />
+            <mxPoint x="100" y="1067.5344827586207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-116" value="&lt;div style=&quot;text-align: left;&quot;&gt;这里只是一个伪接口，统一表示移栈，业务方根据自己&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;需求，调用相应接口&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1047" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-118" value="16. moveTask(displayId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="119.5" y="1087.5" as="sourcePoint" />
+            <mxPoint x="860" y="1087" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-120" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="307" y="800" width="25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-127" value="&lt;div style=&quot;text-align: left;&quot;&gt;切换后台投屏，更改尺寸等信息并调用resize()&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="960" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-130" value="&lt;div style=&quot;text-align: left;&quot;&gt;切换回镜像投屏，更改尺寸等信息并调用resize()&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1168" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-133" value="18. removeTask(displayId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-70" y="1308.5" as="sourcePoint" />
+            <mxPoint x="91" y="1308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-135" value="&lt;div style=&quot;text-align: left;&quot;&gt;这里只是一个伪接口，统一表示退出后台投屏后任务栈的处理，业务方根据自己&lt;span style=&quot;background-color: initial;&quot;&gt;需求，调用相应接口&lt;/span&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1278" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-137" value="&lt;div style=&quot;text-align: left;&quot;&gt;关闭投屏，销毁虚拟屏&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1400" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-139" value="18. destoryVirtualDisplay&lt;br&gt;(displayId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-71" y="1456.5" as="sourcePoint" />
+            <mxPoint x="90" y="1456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
