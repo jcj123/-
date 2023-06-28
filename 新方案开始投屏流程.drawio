@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:40:57.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GpnS0M14BYtejXGiR9ny" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:44:17.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ibc3-0AdVS8QNwk3o_nD" version="21.3.6" type="github">
   <diagram name="第 1 页" id="up2WzP2WOq_WwcbOWC76">
-    <mxGraphModel dx="2010" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2247" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,7 +137,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="COJoxem9YhKzUR3GFNAb-49" value="OplusMirageDisplay&lt;br&gt;PolicyFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1216" y="19" width="130" height="1861" as="geometry" />
+          <mxGeometry x="1076" y="19" width="130" height="1861" as="geometry" />
         </mxCell>
         <mxCell id="COJoxem9YhKzUR3GFNAb-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-49">
           <mxGeometry x="54" y="581" width="22" height="144" as="geometry" />
@@ -203,7 +203,7 @@
         <mxCell id="COJoxem9YhKzUR3GFNAb-80" value="11. mPolicyFactory.createDisplayPolicy" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0009" width="80" relative="1" as="geometry">
             <mxPoint x="891" y="700" as="sourcePoint" />
-            <mxPoint x="1271" y="700" as="targetPoint" />
+            <mxPoint x="1130" y="700" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -226,10 +226,10 @@
           <mxGeometry x="813.5" y="1880" width="123" height="40" as="geometry" />
         </mxCell>
         <mxCell id="COJoxem9YhKzUR3GFNAb-92" value="OplusMirageDisplay&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;PolicyFactory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1219.5" y="1880" width="123" height="40" as="geometry" />
+          <mxGeometry x="1079.5" y="1880" width="123" height="40" as="geometry" />
         </mxCell>
         <mxCell id="COJoxem9YhKzUR3GFNAb-95" value="根据castMode创建对应policy" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="690" width="235" height="30" as="geometry" />
+          <mxGeometry x="1180" y="690" width="235" height="30" as="geometry" />
         </mxCell>
         <mxCell id="COJoxem9YhKzUR3GFNAb-97" value="VirtualDisplay" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="COJoxem9YhKzUR3GFNAb-120">
           <mxGeometry relative="1" as="geometry">
