@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:34:58.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mTCJ2MD-K_xC9i9fuBKr" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:40:57.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GpnS0M14BYtejXGiR9ny" version="21.3.6" type="github">
   <diagram name="第 1 页" id="up2WzP2WOq_WwcbOWC76">
     <mxGraphModel dx="2010" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,6 +56,20 @@
         <mxCell id="COJoxem9YhKzUR3GFNAb-98" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-5">
           <mxGeometry x="51" y="610" width="25" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-140" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-5">
+          <mxGeometry x="51" y="1410" width="25" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-5">
+          <mxGeometry x="71" y="1510" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-147" value="21. destoryDeivceBy&lt;br&gt;DisplayIdLocked" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="COJoxem9YhKzUR3GFNAb-5" target="COJoxem9YhKzUR3GFNAb-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="1490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="COJoxem9YhKzUR3GFNAb-12" value="2. createDisplayDevice()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="120" y="150" as="sourcePoint" />
@@ -112,6 +126,9 @@
         </mxCell>
         <mxCell id="COJoxem9YhKzUR3GFNAb-117" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-25">
           <mxGeometry x="51" y="1027" width="25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-150" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="COJoxem9YhKzUR3GFNAb-25">
+          <mxGeometry x="54" y="1530" width="25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="COJoxem9YhKzUR3GFNAb-45" value="10. notifyDisplayDeviceAdd&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -278,11 +295,32 @@
         <mxCell id="COJoxem9YhKzUR3GFNAb-137" value="&lt;div style=&quot;text-align: left;&quot;&gt;关闭投屏，销毁虚拟屏&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="-450" y="1400" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="COJoxem9YhKzUR3GFNAb-139" value="18. destoryVirtualDisplay&lt;br&gt;(displayId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="COJoxem9YhKzUR3GFNAb-139" value="19. destoryVirtualDisplay&lt;br&gt;(displayId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-71" y="1456.5" as="sourcePoint" />
             <mxPoint x="90" y="1456" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-141" value="20. destoryVirtualDisplay&lt;br&gt;(displayId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="121.5" y="1487.5" as="sourcePoint" />
+            <mxPoint x="302" y="1487" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="312" y="1487" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-148" value="&lt;div style=&quot;text-align: left;&quot;&gt;优先通过dislpayId销毁虚拟屏，如&lt;span style=&quot;background-color: initial;&quot;&gt;找不到，通过mode查找销毁&lt;/span&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1510" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-149" value="22. notifyDisplayDeviceRemoved" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="1606.33" as="sourcePoint" />
+            <mxPoint x="863" y="1607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COJoxem9YhKzUR3GFNAb-151" value="&lt;div style=&quot;text-align: left;&quot;&gt;从虚拟屏框架中移除屏幕&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1590" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
