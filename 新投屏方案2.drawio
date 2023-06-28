@@ -1,9 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T01:45:15.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.6" etag="9EquPn7eRUVM9ISug1c8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T02:02:10.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rIq2q5Orc0F-lK6AE1YI" version="21.3.6" type="github">
   <diagram name="第 1 页" id="pqCpIAnnsJ8Doec1KHbv">
-    <mxGraphModel>
+    <mxGraphModel dx="979" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-1" value="业务方" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="191" y="40" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-6" value="投屏框架" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="421" y="40" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-7" value="1、开启镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="114" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-8" value="MediaProjection.createVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="246" y="120" as="sourcePoint" />
+            <mxPoint x="466.5" y="119.75862068965523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-9" value="原生框架完成VirtualDisplay虚拟屏创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-10" value="VirtualDisplay" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464" y="160" as="sourcePoint" />
+            <mxPoint x="244.81034482758628" y="159.75862068965523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-11" value="Mirage.createVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="246" y="260" as="sourcePoint" />
+            <mxPoint x="466" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-12" value="2、切换后台投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="114" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-14" value="displayId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466.19" y="299.9" as="sourcePoint" />
+            <mxPoint x="247.00034482758628" y="299.6586206896552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-15" value="3、切换回镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-16" value="moveTask()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="248" y="335.24" as="sourcePoint" />
+            <mxPoint x="468" y="335.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-19" value="4、关闭镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="114" y="543" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-21" value="VirtualDisplay.release" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="247" y="219.96000000000004" as="sourcePoint" />
+            <mxPoint x="467" y="219.96000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-22" value="投屏框架完成VirtualDisplay虚拟屏创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="492" y="244" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;移栈，这里会提供多个接口，由业务方自己根据投屏模式&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;来调用相应接口，不再由框架根据参数来确定&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="310" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-24" value="Mirage.destoryVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="247" y="396.96000000000004" as="sourcePoint" />
+            <mxPoint x="467" y="396.96000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-25" value="销毁后台投屏VirtualDisplay虚拟屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="380" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-26" value="MediaProjection.createVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="246" y="482" as="sourcePoint" />
+            <mxPoint x="466.5" y="481.75862068965523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-27" value="moveTask1()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="247" y="435.24" as="sourcePoint" />
+            <mxPoint x="467" y="435.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-28" value="&lt;div style=&quot;text-align: left;&quot;&gt;会提供多个接口，由业务方自己根据投屏模式不同调用不&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;同&lt;span style=&quot;background-color: initial;&quot;&gt;接口，来实现不同策略&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="414" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-29" value="原生框架完成VirtualDisplay虚拟屏创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="492" y="467" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-30" value="VirtualDisplay" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464.19" y="522.24" as="sourcePoint" />
+            <mxPoint x="245.00034482758628" y="521.9986206896552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-31" value="VirtualDisplay.release" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="245" y="587" as="sourcePoint" />
+            <mxPoint x="465" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-32" value="销毁镜像投屏VirtualDisplay虚拟屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="214" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZaOoq3dF_SDf8ZacNCA-33" value="销毁镜像投屏VirtualDisplay虚拟屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="573" width="200" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
