@@ -1,107 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T06:54:56.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="74F7vStdvJ23P2gO5js1" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T06:55:42.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KOitw7UDgGMHGjv6is9i" version="21.7.2" type="github">
   <diagram name="第 1 页" id="TcpiQXXUWc1p7RaLZvVN">
-    <mxGraphModel dx="989" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1816" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YLJdL4NDfY9N8e260bSm-1" value="业务方" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="191" y="40" width="100" height="520" as="geometry" />
+          <mxGeometry x="140" y="40" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="YLJdL4NDfY9N8e260bSm-1" vertex="1">
-          <mxGeometry x="46" y="217" width="10" height="40" as="geometry" />
+          <mxGeometry x="46" y="230" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-3" value="VirtualDisplay.resize()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="YLJdL4NDfY9N8e260bSm-1" target="YLJdL4NDfY9N8e260bSm-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="51" y="197" as="sourcePoint" />
+            <mxPoint x="51" y="210" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="81" y="227" />
+              <mxPoint x="81" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="YLJdL4NDfY9N8e260bSm-1" vertex="1">
-          <mxGeometry x="45" y="413" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="471" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-22" value="VirtualDisplay.resize()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="YLJdL4NDfY9N8e260bSm-1" target="YLJdL4NDfY9N8e260bSm-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="393" as="sourcePoint" />
+            <mxPoint x="50" y="451" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="423" />
+              <mxPoint x="80" y="481" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-6" value="投屏框架" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="421" y="40" width="100" height="520" as="geometry" />
+          <mxGeometry x="421" y="40" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-7" value="1、开启镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="110" y="100" width="110" height="30" as="geometry" />
+        <mxCell id="YLJdL4NDfY9N8e260bSm-7" value="&lt;b&gt;1、开启镜像投屏&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="59" y="80" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-8" value="MediaProjection.createVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="246" y="120" as="sourcePoint" />
-            <mxPoint x="466.5" y="119.75862068965523" as="targetPoint" />
+            <mxPoint x="195" y="132" as="sourcePoint" />
+            <mxPoint x="470.5" y="131.75862068965523" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-9" value="投屏框架创建VirtualDisplay虚拟屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="488" y="100" width="200" height="30" as="geometry" />
+        <mxCell id="YLJdL4NDfY9N8e260bSm-9" value="业务方创建VirtualDisplay虚拟屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="120" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-10" value="VirtualDisplay" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="464" y="160" as="sourcePoint" />
-            <mxPoint x="244.81034482758628" y="159.75862068965523" as="targetPoint" />
+            <mxPoint x="470.5" y="169.8965517241379" as="sourcePoint" />
+            <mxPoint x="193.81034482758628" y="169.75862068965523" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-11" value="&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;plain&quot; class=&quot;ql-code-block ql-long-210036 ql-authorBlock-210036 ql-direction-ltr&quot;&gt;startActivityToMirageDisplay() --pc/car&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;plain&quot; class=&quot;ql-code-block ql-long-210036 ql-authorBlock-210036 ql-direction-ltr&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;plain&quot; class=&quot;ql-code-block ql-long-210036 ql-authorBlock-210036 ql-direction-ltr&quot;&gt;moveTaskToDisplay() -- pad/tv/听剧&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="YLJdL4NDfY9N8e260bSm-11" value="&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;plain&quot; class=&quot;ql-code-block ql-long-210036 ql-authorBlock-210036 ql-direction-ltr&quot;&gt;startActivityToMirageDisplay() --pc/car&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;plain&quot; class=&quot;ql-code-block ql-long-210036 ql-authorBlock-210036 ql-direction-ltr&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;plain&quot; class=&quot;ql-code-block ql-long-210036 ql-authorBlock-210036 ql-direction-ltr&quot;&gt;moveTaskToDisplay() -- pad/tv/听剧&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" target="YLJdL4NDfY9N8e260bSm-6">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="247" y="316" as="sourcePoint" />
-            <mxPoint x="467" y="316" as="targetPoint" />
+            <mxPoint x="196" y="341" as="sourcePoint" />
+            <mxPoint x="416" y="341" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-12" value="2、切换后台投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="112" y="180" width="110" height="30" as="geometry" />
+        <mxCell id="YLJdL4NDfY9N8e260bSm-12" value="&lt;b&gt;2、切换后台投屏&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="61" y="180" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;移栈，这里会提供多个接口，由业务方自己根据投屏模式&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;来调用相应接口，不再由框架根据来根据业务逻辑确定&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="496" y="291" width="320" height="40" as="geometry" />
+          <mxGeometry x="496" y="320" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-15" value="3、切换回镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="330" width="130" height="30" as="geometry" />
+        <mxCell id="YLJdL4NDfY9N8e260bSm-15" value="&lt;b&gt;3、切回镜像投屏&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="59" y="360" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-16" value="moveTaskToDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="248" y="367.74" as="sourcePoint" />
-            <mxPoint x="468" y="367.74" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-17" value="&lt;div style=&quot;text-align: left;&quot;&gt;会提供多种模式，由业务方自己根据投屏模式不同调用不同&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;接口，来实现不同策略&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="486" y="346" width="340" height="40" as="geometry" />
+        <mxCell id="YLJdL4NDfY9N8e260bSm-17" value="&lt;div style=&quot;text-align: left;&quot;&gt;会提供多种模式，由业务方自己根据投屏模式不同调用&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;不同&lt;span style=&quot;background-color: initial;&quot;&gt;接口，来实现不同策略&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="496" y="380" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-18" value="resize VirtualDisplay&lt;br&gt;重新设置尺寸等信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="92" y="250" width="130" height="40" as="geometry" />
+          <mxGeometry x="41" y="260" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-19" value="4、关闭镜像投屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="112" y="505" width="110" height="30" as="geometry" />
+        <mxCell id="YLJdL4NDfY9N8e260bSm-19" value="&lt;b&gt;4、关闭镜像投屏&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="59" y="550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-20" value="MediaProjection.destoryVirtualDisplay()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="244" y="518.96" as="sourcePoint" />
-            <mxPoint x="464" y="518.96" as="targetPoint" />
+            <mxPoint x="193" y="591.96" as="sourcePoint" />
+            <mxPoint x="470.5" y="591.9310344827586" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YLJdL4NDfY9N8e260bSm-23" value="resize VirtualDisplay&lt;br&gt;重新设置尺寸等信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="90" y="450" width="130" height="40" as="geometry" />
+          <mxGeometry x="39" y="495" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YLJdL4NDfY9N8e260bSm-24" value="销毁VirtualDisplay虚拟屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="488" y="505" width="160" height="30" as="geometry" />
+        <mxCell id="YLJdL4NDfY9N8e260bSm-24" value="业务方销毁VirtualDisplay虚拟屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="585" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uxzzp760LAjKfmrw6Dc_-1" value="stopMirageWindowMode()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="uxzzp760LAjKfmrw6Dc_-1" value="releaseVirtualDisplayDevice()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" target="YLJdL4NDfY9N8e260bSm-6">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="246" y="408.74" as="sourcePoint" />
-            <mxPoint x="466" y="408.74" as="targetPoint" />
+            <mxPoint x="195" y="449.74" as="sourcePoint" />
+            <mxPoint x="415" y="449.74" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uxzzp760LAjKfmrw6Dc_-2" value="createVirtualDisplayDevice()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="uxzzp760LAjKfmrw6Dc_-2" value="createVirtualDisplayDevice()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" target="YLJdL4NDfY9N8e260bSm-6">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="245" y="219" as="sourcePoint" />
-            <mxPoint x="465" y="219" as="targetPoint" />
+            <mxPoint x="194" y="219" as="sourcePoint" />
+            <mxPoint x="414" y="219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNr0aCSfTRlsXPR6XSYT-1" value="&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;plain&quot; class=&quot;ql-code-block ql-long-210036 ql-authorBlock-210036 ql-direction-ltr&quot;&gt;moveTaskToDisplay()&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="194" y="402" as="sourcePoint" />
+            <mxPoint x="469" y="402" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
